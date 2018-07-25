@@ -1,0 +1,43 @@
+{
+  "name": "goalkicker-scraper",
+  "version": "1.0.0",
+  "description": "Simple script for scraping the books off goalkicker.com",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/tomnieuwland/goalkicker-scraper.git"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "books",
+    "programming",
+    "books",
+    "goalkicker"
+  ],
+  "author": "Tom Nieuwland <thomasnieuwland19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/tomnieuwland/goalkicker-scraper/issues"
+  },
+  "homepage": "https://gitlab.com/tomnieuwland/goalkicker-scraper#README",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.16.0",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "ajv": "^6.5.2",
+    "eslint": "^5.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
